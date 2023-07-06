@@ -1,0 +1,19 @@
+<h1 class="mt-4">postagens</h1>
+
+<div class="row">
+    {{#each posts}}
+    <div class="col-sm-3">
+        <div class="card">
+            <div class="card-body">
+                 <h4>{{titulo}}</h4>
+                 <p>{{descricao}}</p>
+                 <small>{{criadoEm}}</small><br>
+                 <a href="/posts/{{_id}}"><button type="button" class="btn btn-outline-secondary mt-3">Ler mais</button></a>
+            </div>
+        </div>
+    </div>
+{{/each}}
+</div>
+
+
+

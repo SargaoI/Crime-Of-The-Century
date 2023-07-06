@@ -1,0 +1,36 @@
+<div class="container">
+
+    <form method="post" action="/cadastrar">
+
+        <h1 class="mt-4">Criar novo post</h1>
+
+
+        <div class="mb-3">
+            <label for="titulo" class="form-label">Título</label>
+            <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Digite o título">
+        </div>
+        <div class="mb-3">
+            <label for="categoria" class="form-label">Categoria</label>
+            <input type="text" class="form-control" id="categoria" name="categoria" placeholder="Digite a categoria">
+        </div>
+        <div class="mb-3">
+            <label for="descricao" class="form-label">Descrição</label>
+            <textarea class="form-control" id="descricao" name="descricao" rows="3"
+                placeholder="Digite a descrição"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="texto" class="form-label">Texto</label>
+            <textarea class="form-control" id="texto" name="texto" rows="5" placeholder="Digite o texto"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="status" class="form-label">Status</label>
+            <select class="form-select" id="status" name="status">
+                <option value="ativo">Ativo</option>
+                <option value="inativo">Inativo</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+
+</div>
